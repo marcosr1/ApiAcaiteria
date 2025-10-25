@@ -17,7 +17,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/cremes")
-@CrossOrigin(origins = "https://acaiteria-six.vercel.app/")
+@CrossOrigin(origins = {
+    "https://acaiteria-six.vercel.app",
+    "http://localhost:3000"
+})
 public class CremesController {
 
     private final CremesRepository repository;
