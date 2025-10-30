@@ -18,9 +18,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/complementosPremium")
 @CrossOrigin(origins = {
-    "https://acaiteria-six.vercel.app",
-    "http://localhost:3000"
-})
+    "https://acaiteria-six.vercel.app"})
 public class ComplementosPremiumController {
 
     private final ComplementosPremiumRepository repository;
